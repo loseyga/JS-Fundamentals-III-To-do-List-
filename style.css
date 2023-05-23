@@ -1,0 +1,83 @@
+h1 {
+    color: rgb(5, 5, 5);
+    font-family: "Courier New", monospace;
+    font-size: 30px;
+    font-weight: 200;
+    text-decoration: underline;
+}
+
+h2 {
+    color: rgb(5, 5, 5);
+    font-family: "Courier New", monospace;
+    font-size: 18px;
+    font-weight: 200;
+    text-decoration: underline;
+}
+
+#add {
+    border: 1px solid rgb(3, 3, 3);
+    border-radius: 8px;
+    margin: 10px;
+    font-family: "Lucida Console", monospace;
+}
+
+#listItem {
+    border: none;
+    border-bottom: 2px solid rgb(0, 255, 200);
+    padding-left: 8px;
+    padding-right: 8px;
+    box-sizing:inherit;
+    font-family: "Lucida Console", monospace;
+}
+
+input:focus {
+    outline: none !important;
+}
+
+.doneButton {
+    border: 1px solid rgb(3, 3, 3);
+    border-radius: 50%;
+    margin: 12px;
+}
+
+.paper {
+    background: #ffffffd5;
+    box-shadow:
+      /* The top layer shadow */
+      0 -1px 1px rgba(0,0,0,0.15),
+      /* The second layer */
+      0 -10px 0 -5px #eee,
+      /* The second layer shadow */
+      0 -10px 1px -4px rgba(0,0,0,0.15),
+       /* The third layer */
+      0 -20px 0 -10px #eee,
+      /* The third layer shadow */
+      0 -20px 1px -9px rgba(0,0,0,0.15);
+      /* Padding for demo purposes */
+      padding: 30px;
+      text-align: center;
+  }
+
+  .savedListItems {
+    display: flex;
+    justify-content: space-around;
+    text-align: start;
+  }
+
+  li {
+    font-family: "Lucida Console", monospace;
+    text-decoration: underline;
+    padding: 12px;
+    
+  }
+  
+  body {
+    background: black
+  }
+
+  .archive {
+    background: #ffffffd5;
+    border-top: 2px solid rgb(3, 3, 3);
+    padding: 30px;
+    text-align: start;
+  }
